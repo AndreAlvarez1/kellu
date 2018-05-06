@@ -71,6 +71,17 @@ nav .button-collapse i {
 
 
 
+.card .card-content h1{
+  color: #143F9D;
+    margin: 0;
+    padding: 0;
+    font-size: 1.1em;
+    font-weight: 900;
+}
+
+.card .card-content p{
+  color: #ED4E97;
+}
 
 
 
