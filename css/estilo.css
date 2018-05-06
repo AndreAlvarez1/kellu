@@ -130,6 +130,78 @@ nav .button-collapse i {
   font-size: 3em;
 }
 
+.equipo{
+background-image: url(../images/madera.jpg);
+background-repeat: repeat;
+padding: 50px 0 50px 20px;
+color:white;
+}
+
+.persona{
+  border-radius: 300px;
+  border: 4px solid white;
+  width:70%;
+  margin: 20px 0;
+}
+
+
+.equipo h1{
+ font-size: 3em;
+ background-color: black;
+ display: inline;
+ padding:10px;
+ margin: 40px 0;
+}
+
+.equipo h2{
+  font-size: 1.5em;
+  font-weight: 900;
+  background-color: black;
+  margin:0;
+  padding: 5px;
+  display: inline;
+}
+
+.equipo p{
+  font-size: 1em;
+  font-weight:400;
+  background-color: black;
+  margin:0;
+  padding: 5px;
+  display: inline;
+}
+
+.contacto{
+padding: 50px;
+}
+
+.derecha{
+  margin-top:50px;
+}
+
+.socios{
+  color:white;
+
+}
+
+.socios h1{
+  font-size: 4em;
+  font-weight: 900;
+  margin:0;
+
+
+
+}
+
+.socios p{
+  text-align: justify;
+  line-height: 1.8em;
+  color:rgba(255,255,255,0.8)
+}
+
+
+
+
 @media only screen and (max-width: 768px) {
 
   .portada h1{
@@ -188,5 +260,8 @@ nav .button-collapse i {
     color:#143F9D;
   }
 
+  .socios .parallax-container {
+        height: auto;
+      }
 
 }
