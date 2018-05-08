@@ -21,6 +21,10 @@ nav .button-collapse i {
   color:grey;
 }
 
+span{
+  font-weight: 900;
+}
+
 #sidenav-overlay {
     z-index: 99;
 }
@@ -203,7 +207,6 @@ padding: 50px;
   line-height: 1.8em;
   color:rgba(255,255,255,0.8)
 }
-
 
 
 
