@@ -168,7 +168,8 @@ color:white;
   background-color: black;
   margin:0;
   padding: 5px;
-  display: inline;
+  display: flex;
+  width: 70%;
 }
 
 .equipo p{
@@ -177,7 +178,7 @@ color:white;
   background-color: black;
   margin:0;
   padding: 5px;
-  display: inline;
+  display: inline-block;
 }
 
 .contacto{
