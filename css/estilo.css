@@ -53,7 +53,7 @@ span{
   color:white;
   font-size: 2em;
   font-weight: 400;
-  margin:0px;
+  margin:10px 0 0 0;
 }
 
 .kellu{
@@ -101,6 +101,29 @@ span{
   background-color: #4568A9;
 }
 
+.amarillo_kellu{
+  background-color: #ECA154;
+}
+
+.rojo_kellu{
+  background-color: #CD545B;
+}
+
+.verde_kellu{
+  background-color: #00B388;
+}
+
+.azul_kellu{
+  background-color: #426DA9;
+}
+
+.morado_kellu{
+  background-color: #6F5091;
+}
+
+
+
+
 .causas h1{
   color:#EC4496;
   font-weight: 900;
@@ -118,27 +141,27 @@ span{
   color: #ED4E97;
 }
 
-.sumate h1{
+.sumate{
   color:white;
+  padding: 50px;
+}
+
+.sumate h1{
   font-size: 6em;
   font-weight: 900;
-  margin: 200px 0 0 80px;
+  margin: 0 0 20px 0;
 
 }
 
 .sumate h2{
-  color:white;
   font-size: 1.2em;
-  margin: 10px 0 0 80px;
-  background-color: white;
-  color: black;
-
+  margin: 0;
 }
 
 .sumate .btn{
   width: 400px;
-  margin: 220px 0 0 150px;
-  height: 50px
+  margin: 10vh;
+  height: 50px;
 }
 
 .sumate .btn p{
@@ -179,7 +202,7 @@ color:white;
 }
 
 .people{
-float:left;  
+float:left;
 }
 
 .persona{
@@ -266,6 +289,28 @@ img.cara{
   border:4px solid white;
 }
 
+.contacto{
+  padding: 100px 0;
+}
+
+.contacto h1{
+  font-weight: 900;
+  margin: 0;
+  font-size: 4em;
+  color:#426DA9;
+}
+
+.contacto h2{
+  font-weight: 400;
+  margin: 0 0 10px 0 ;
+  font-size: 2em;
+  color:#426DA9;
+}
+
+.contacto .btn{
+  width: 100%;
+}
+
 @media only screen and (max-width: 768px) {
 
   .portada h1{
@@ -273,18 +318,12 @@ img.cara{
 
 }
 
-.sumate h1{
-  color:white;
-  font-size: 6em;
-  font-weight: 900;
-  margin:200px 0 0 10px ;
-
+.sumate{
+  padding-bottom: 10px;
 }
-
 .sumate .btn{
-  width: 400px;
-  margin: 0;
-  height: 50px
+  margin-top: 40px;
+
 }
 
 .sumate .btn p{
@@ -310,23 +349,25 @@ img.cara{
   }
 
   .sumate h1{
-    color:white;
-    font-size: 3em;
+    font-size: 3.5em;
     font-weight: 900;
-    margin:160px 0 0 0 ;
-    background-color: black;
-    display: inline-block;
-
+    margin: 20px 0 20px 0;
 
   }
 
   .sumate h2{
-    font-size: 1em;
-    margin: 20px;
-    padding: 5px;
-    background-color: white;
-    color:black;
+    font-size: 1.2em;
+    text-align: justify;
+  }
 
+  .sumate .btn{
+    width: 300px;
+    margin: 20px 0 40px;
+    height: 50px;
+  }
+
+  .sumate .btn p{
+    font-size: 1em;
   }
 
   .donar h1{
@@ -336,8 +377,14 @@ img.cara{
     color:#143F9D;
   }
 
+  .carousel{
+    min-height: 600px;
+  }
+
   .socios .parallax-container {
         height: auto;
       }
+
+
 
 }
